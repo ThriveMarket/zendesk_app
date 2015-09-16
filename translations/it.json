@@ -1,6 +1,6 @@
 {
   "app": {
-    "description": "Visualizza informazioni dettagliate su cliente e ordine da Magento.",
+    "description": "Visualizza informazioni dettagliate su clienti e ordini da Magento.",
     "name": "Magento",
     "parameters": {
       "url": {

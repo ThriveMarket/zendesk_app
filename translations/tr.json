@@ -43,12 +43,12 @@
     "currency": "Para Birimi",
     "items": "Öğeler",
     "created": "Oluşturma tarihi",
-    "updated": "Güncellendi",
+    "updated": "Güncellenme:",
     "store": "Mağaza",
     "total": "Toplam",
     "error": {
       "message": "Sipariş mevcut değil",
-      "no_address": "Adres yok."
+      "no_address": "Adres yok"
     }
   }
 }

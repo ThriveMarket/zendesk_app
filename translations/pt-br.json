@@ -10,7 +10,7 @@
         "label": "Token de acesso"
       },
       "order_id_field_id": {
-        "label": "ID do campo do número do pedido"
+        "label": "ID do campo da ID do pedido"
       }
     }
   },
@@ -27,7 +27,7 @@
       "title": "Ocorreu um erro",
       "message": "Repita a ação anterior.",
       "server": "A solicitação falhou. Certifique-se de que a configuração está correta e tente novamente.",
-      "data": "Os dados do ticket não puderam ser lidos.",
+      "data": "Não foi possível ler os dados do ticket.",
       "noprofile": "O cliente não existe."
     },
     "loading": "Aguardando o carregamento dos dados do ticket...",
@@ -42,7 +42,7 @@
     "status": "Status",
     "currency": "Moeda",
     "items": "Itens",
-    "created": "Data de criação",
+    "created": "Data da criação",
     "updated": "Data de atualização",
     "store": "Loja",
     "total": "Total",

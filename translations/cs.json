@@ -1,0 +1,54 @@
+{
+  "app": {
+    "description": "Zobrazí detaily zákazníka a objednávky ze softwaru Magento.",
+    "name": "Magento",
+    "parameters": {
+      "url": {
+        "label": "URL obchodu"
+      },
+      "access_token": {
+        "label": "Přístupový token"
+      },
+      "order_id_field_id": {
+        "label": "Order ID Field ID"
+      }
+    }
+  },
+  "profile": {
+    "customer_since": "Zákazník od",
+    "addresses": "Adresy",
+    "billing": "Fakturace",
+    "shipping": "Doprava",
+    "order": "Objednávka",
+    "guest": "(Host)"
+  },
+  "global": {
+    "error": {
+      "title": "Došlo k chybě",
+      "message": "Zkuste prosím provést předchozí akci znovu.",
+      "server": "Požadavek byl neúspěšný. Zkontrolujte prosím, že je konfigurace správná, a zkuste to znovu.",
+      "data": "Nelze přečíst data tiketu.",
+      "noprofile": "Zákazník neexistuje."
+    },
+    "loading": "Čekání na načtení dat tiketu...",
+    "requesting": "Vyžádání dat z Magento..."
+  },
+  "orders": {
+    "id": "POSLEDNÍ OBJEDNÁVKY",
+    "status": "STAV"
+  },
+  "order": {
+    "details": "Detaily objednávky na",
+    "status": "Stav",
+    "currency": "Měna",
+    "items": "Položky",
+    "created": "Vytvořeno",
+    "updated": "Aktualizováno",
+    "store": "Obchod",
+    "total": "Celkem",
+    "error": {
+      "message": "Objednávka neexistuje",
+      "no_address": "Žádná adresa."
+    }
+  }
+}

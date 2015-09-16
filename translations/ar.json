@@ -1,0 +1,54 @@
+{
+  "app": {
+    "description": "لعرض بيانات العملاء والطلبات من Magento.",
+    "name": "Magento",
+    "parameters": {
+      "url": {
+        "label": "عنوان URL المتجر"
+      },
+      "access_token": {
+        "label": "رمز مميز للوصول"
+      },
+      "order_id_field_id": {
+        "label": "Order ID Field ID"
+      }
+    }
+  },
+  "profile": {
+    "customer_since": "عميل منذ",
+    "addresses": "عناوين",
+    "billing": "فوترة",
+    "shipping": "شحن",
+    "order": "الطلب",
+    "guest": "(زائر)"
+  },
+  "global": {
+    "error": {
+      "title": "حدث خطأ",
+      "message": "يُرجى إعادة محاولة الإجراء السابق.",
+      "server": "فشل الطلب. يُرجى التحقق من صحة التكوين ثم أعد المحاولة.",
+      "data": "تعذر قراءة بيانات التذكرة.",
+      "noprofile": "عميل غير موجود."
+    },
+    "loading": "في انتظار تحميل بيانات التذكرة...",
+    "requesting": "جارٍ طلب بيانات من Magento..."
+  },
+  "orders": {
+    "id": "طلبات حديثة",
+    "status": "الحالة"
+  },
+  "order": {
+    "details": "بيانات طلب",
+    "status": "الحالة",
+    "currency": "العملة",
+    "items": "عناصر",
+    "created": "تاريخ الإنشاء",
+    "updated": "محدَّث",
+    "store": "المتجر",
+    "total": "الإجمالي",
+    "error": {
+      "message": "الطلب غير موجود",
+      "no_address": "بدون عنوان"
+    }
+  }
+}

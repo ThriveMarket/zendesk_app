@@ -26,7 +26,7 @@
     "error": {
       "title": "Der forekom en fejl",
       "message": "Prøv forrige handling igen.",
-      "server": "Henvendelsen mislykkedes. Sørg for, at din konfiguration er korrekt, og prøv igen.",
+      "server": "Anmodningen mislykkedes. Sørg for, at din konfiguration er korrekt, og prøv igen.",
       "data": "Ticket-dataene kunne ikke læses.",
       "noprofile": "Kunden eksisterer ikke."
     },
