@@ -1,0 +1,54 @@
+{
+  "app": {
+    "description": "Afişează detaliile clientului şi comenzii din Magento.",
+    "name": "Magento",
+    "parameters": {
+      "url": {
+        "label": "Adresă URL magazin"
+      },
+      "access_token": {
+        "label": "Simbol de acces"
+      },
+      "order_id_field_id": {
+        "label": "Order ID Field ID"
+      }
+    }
+  },
+  "profile": {
+    "customer_since": "Client începând cu",
+    "addresses": "Adrese",
+    "billing": "Facturare",
+    "shipping": "Livrare",
+    "order": "Comandă",
+    "guest": "(Oaspete)"
+  },
+  "global": {
+    "error": {
+      "title": "A apărut o eroare",
+      "message": "Vă rugăm să repetaţi acţiunea anterioară.",
+      "server": "Solicitarea a eşuat. Vă rugăm să verificaţi corectitudinea configuraţiei şi să încercaţi din nou.",
+      "data": "Datele tichetului nu au putut fi citite.",
+      "noprofile": "Clientul nu există."
+    },
+    "loading": "Se aşteaptă încărcarea datelor tichetului...",
+    "requesting": "Se solicită date de la Magento..."
+  },
+  "orders": {
+    "id": "COMENZI RECENTE",
+    "status": "STARE"
+  },
+  "order": {
+    "details": "Detaliile comenzii pentru",
+    "status": "Stare",
+    "currency": "Monedă",
+    "items": "Elemente",
+    "created": "Creat",
+    "updated": "Actualizat",
+    "store": "Magazin",
+    "total": "Total",
+    "error": {
+      "message": "Comanda nu există",
+      "no_address": "Fără adresă."
+    }
+  }
+}

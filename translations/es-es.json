@@ -1,0 +1,54 @@
+{
+  "app": {
+    "description": "Muestra los detalles del cliente y del pedido de Magento.",
+    "name": "Magento",
+    "parameters": {
+      "url": {
+        "label": "URL de la tienda"
+      },
+      "access_token": {
+        "label": "Token de acceso"
+      },
+      "order_id_field_id": {
+        "label": "ID de campo del número del pedido"
+      }
+    }
+  },
+  "profile": {
+    "customer_since": "Cliente desde",
+    "addresses": "Direcciones",
+    "billing": "Facturación",
+    "shipping": "Envío",
+    "order": "Pedido",
+    "guest": "(Invitado)"
+  },
+  "global": {
+    "error": {
+      "title": "Se ha producido un error",
+      "message": "Vuelva a intentar la acción anterior.",
+      "server": "Solicitud fallida. Asegúrese de que su configuración sea la correcta y vuelva a intentarlo.",
+      "data": "No se pudieron leer los datos del ticket.",
+      "noprofile": "El cliente no existe."
+    },
+    "loading": "Esperando que se carguen los datos del ticket...",
+    "requesting": "Solicitando datos de Magento..."
+  },
+  "orders": {
+    "id": "PEDIDOS RECIENTES",
+    "status": "ESTADO"
+  },
+  "order": {
+    "details": "Detalles del pedido de",
+    "status": "Estado",
+    "currency": "Moneda",
+    "items": "Artículos",
+    "created": "Creación",
+    "updated": "Actualización",
+    "store": "Tienda",
+    "total": "Total",
+    "error": {
+      "message": "El pedido no existe",
+      "no_address": "No hay dirección."
+    }
+  }
+}

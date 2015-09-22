@@ -1,0 +1,54 @@
+{
+  "app": {
+    "description": "Ügyfél adatok és rendelések részleteinek megjelenítése a Magentobol.",
+    "name": "Magento",
+    "parameters": {
+      "url": {
+        "label": "URL tárolása"
+      },
+      "access_token": {
+        "label": "Token hozzáférés"
+      },
+      "order_id_field_id": {
+        "label": "Rendelés azonosító Mező azonosító"
+      }
+    }
+  },
+  "profile": {
+    "customer_since": "Ügyfél ettől kezdve",
+    "addresses": "Címek",
+    "billing": "Számlázás",
+    "shipping": "Szállítás",
+    "order": "Sorrend",
+    "guest": "(Vendég)"
+  },
+  "global": {
+    "error": {
+      "title": "Hiba történt",
+      "message": "Kérem próbálja újra az előző műveletet.",
+      "server": "A kérés sikertelen. Kérjük bizonyosodjon meg a helyes konfigurációról és próbálja újra.",
+      "data": "A jegy adatai nem olvashatók.",
+      "noprofile": "Ügyfél nem létezik."
+    },
+    "loading": "Várakozás a jegy adatok betöltésére...",
+    "requesting": "Adatok kérelmezése a Magento-ból..."
+  },
+  "orders": {
+    "id": "LEGÚJABB RENDELÉSEK",
+    "status": "Állapot"
+  },
+  "order": {
+    "details": "Rendelés adatok",
+    "status": "Állapot",
+    "currency": "Pénznem",
+    "items": "Adatelemek",
+    "created": "Létrehozva",
+    "updated": "Frissítve",
+    "store": "Üzlet",
+    "total": "Összesen",
+    "error": {
+      "message": "A megrendelés nem létezik",
+      "no_address": "Nincs cím."
+    }
+  }
+}
