@@ -7,6 +7,63 @@
     {{/if}}
   </h4>
 
+  <h4><a href="#" class="toggle-customer-info">Customer's info</a></h4>
+  <p class="hide">
+    <table class="table table-condensed">
+      <tbody>
+        {{#order_qty}}
+        <tr class="_tooltip" data-title="{{titles}}" data-placement="top">
+          <td>Order qty</td>
+          <td>{{order_qty}}</td>
+        </tr>
+        {{/order_qty}}
+        {{#dollar_spent}}
+        <tr class="_tooltip" data-title="{{titles}}" data-placement="top">
+          <td>Dollar spent</td>
+          <td>{{dollar_spent}}</td>
+        </tr>
+        {{/dollar_spent}}
+        {{#total_savings}}
+        <tr class="_tooltip" data-title="{{titles}}" data-placement="top">
+          <td>Total savings</td>
+          <td>{{total_savings}}</td>
+        </tr>
+        {{/total_savings}}
+        {{#projected_savings}}
+        <tr class="_tooltip" data-title="{{titles}}" data-placement="top">
+          <td>Projected savings</td>
+          <td>{{projected_savings}}</td>
+        </tr>
+        {{/projected_savings}}
+        {{#last_order_date}}
+        <tr class="_tooltip" data-title="{{titles}}" data-placement="top">
+          <td>Last order date</td>
+          <td>{{last_order_date}}</td>
+        </tr>
+        {{/last_order_date}}
+        {{#month_order_qty}}
+        <tr class="_tooltip" data-title="{{titles}}" data-placement="top">
+          <td>Month order qty</td>
+          <td>{{month_order_qty}}</td>
+        </tr>
+        {{/month_order_qty}}
+        {{#month_dollar_spent}}
+        <tr class="_tooltip" data-title="{{titles}}" data-placement="top">
+          <td>Month dollar spent</td>
+          <td>{{month_dollar_spent}}</td>
+        </tr>
+        {{/month_dollar_spent}}
+        {{#month_savings}}
+        <tr class="_tooltip" data-title="{{titles}}" data-placement="top">
+          <td>Month savings</td>
+          <td>{{month_savings}}</td>
+        </tr>
+        {{/month_savings}}
+      </tbody>
+    </table>
+  </p>
+
+
   {{#if recentOrders}}
   <table class="table table-condensed">
     <thead>

@@ -29,6 +29,7 @@
       'getOrder.done'        : 'handleOrder',
       'getOrder.fail'        : 'handleFail',
       'click .toggle-address': 'toggleAddress',
+      'click .toggle-customer-info': 'toggleCustomerInfo',
       'userInfo.done'        : 'onUserInfoDone'
     },
 
@@ -163,6 +164,11 @@
     },
 
     toggleAddress: function (e) {
+      this.$(e.target).parent().next('p').toggleClass('hide');
+      return false;
+    },
+
+    toggleCustomerInfo: function (e) {
       this.$(e.target).parent().next('p').toggleClass('hide');
       return false;
     },
